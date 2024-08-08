@@ -1,10 +1,18 @@
 /* styles.css */
 body, html {
+    background-size: cover;
+    background-position: center;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
     font-family: 'Roboto', sans-serif; /* Apply Roboto font */
     height: 100%;
+    /*background-color: #000;*/
+    color: #fff;
+}
+
+p {
+    margin: 0.1em 0; /* Adjust this value as needed */
 }
 
 .background-scroll {
@@ -19,7 +27,8 @@ body, html {
     flex-direction: column;
 }
 
-.background-layer {
+
+.background-layer { 
     flex: 1;
     background-size: cover;
     background-position: center;
@@ -27,12 +36,13 @@ body, html {
 }
 
 .background-layer:nth-child(1) {
-    background-image: url('photo1.jpg');
+    background-image: url('https://raw.githubusercontent.com/iusxius/Opificio.net/main/GIULIA%20LAUDENZIIMG_6228.jpg');
 }
 
 .background-layer:nth-child(2) {
-    background-image: url('photo2.jpg');
+    background-image: url('https://raw.githubusercontent.com/iusxius/Opificio.net/main/GIULIA%20LAUDENZIIMG_6166.jpg');
 }
+
 
 @keyframes scrollBackground {
     0% {
@@ -48,11 +58,11 @@ body, html {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Full height of the viewport */
+    height: 100vh; 
     text-align: center;
     z-index: 1;
     color: white;
-    flex-direction: column; /* Arrange the content vertically */
+    flex-direction: column; 
 }
 
 h1 {
@@ -64,7 +74,6 @@ p {
     font-size: 1.2em;
 }
 
-/* Footer Styling */
 footer {
     position: fixed;
     bottom: 0;
@@ -85,4 +94,5 @@ footer {
 .footer-content a:hover {
     text-decoration: underline;
 }
+
 
