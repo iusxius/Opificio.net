@@ -1,2 +1,2 @@
 # Opificio.net
-Opificio Network web platform official repository
+Opificio Network web platform repository.
